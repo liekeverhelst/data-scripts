@@ -15,7 +15,7 @@ with open(filename, encoding='utf-8') as f:
         try:
             return_code = subprocess.call(cmd, shell=True)
             count =count +1
-            print("command # " + count + " completed with return code " + return_code)
+            print("command # " + str(count) + " completed with return code " + str(return_code))
             
         
         except Exception as e:
