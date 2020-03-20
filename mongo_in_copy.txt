@@ -1,2 +1,0 @@
-"C:\Program Files\MongoDB\Server\4.2\bin\mongoimport" --db slo_all --collection deprecated --file D://GITLAB//Erfgoed//SLO//datasets//curriculum-doelen//curriculum-kerndoelen//data//deprecated.json --jsonArray --upsertFields="id" 
-"C:\Program Files\MongoDB\Server\4.2\bin\mongoimport" --db slo_all --collection domeinen --file D://GITLAB//Erfgoed//SLO//datasets//curriculum-doelen//curriculum-kerndoelen//data//domeinen.json --jsonArray --upsertFields="id" 
